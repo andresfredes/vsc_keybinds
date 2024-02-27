@@ -1,0 +1,76 @@
+[
+    // Next editor
+    {
+        "key": "ctrl+shift+alt+t",
+        "command": "workbench.action.nextEditorInGroup",
+        "when": "editorFocus"
+    },
+    // Previous editor
+    {
+        "key": "ctrl+shift+alt+r",
+        "command": "workbench.action.previousEditorInGroup",
+        "when": "editorFocus"
+    },
+    // Next group
+    {
+        "key": "ctrl+shift+alt+d",
+        "command": "workbench.action.focusNextGroup",
+        "when": "editorFocus"
+    },
+    // Previous group
+    {
+        "key": "ctrl+shift+alt+a",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "editorFocus"
+    },
+    // Move editor > group
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "workbench.action.moveEditorToNextGroup",
+        "when": "editorFocus"
+    },
+    // Move editor < group
+    {
+        "key": "ctrl+shift+alt+w",
+        "command": "workbench.action.moveEditorToPreviousGroup",
+        "when": "editorFocus"
+    },
+    // Focus terminal
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "workbench.action.terminal.focus"
+    },
+    // Focus editors
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus"
+    },
+    // Focus sidebar: explorer
+    {
+        "key": "ctrl+shift+alt+x",
+        "command": "workbench.view.explorer",
+    },
+    // Focus sidebar: debug
+    {
+        "key": "ctrl+shift+alt+v",
+        "command": "workbench.view.debug",
+    },
+    // Focus sidebar: activity bar
+    {
+        "key": "ctrl+shift+alt+c",
+        "command": "workbench.action.focusActivityBar",
+    },
+    // Close terminal
+    {
+        "key": "ctrl+shift+alt+q",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    // Close editor / focused pane
+    {
+        "key": "ctrl+shift+alt+q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!terminalFocus"
+    }
+]
