@@ -49,17 +49,17 @@
     // Focus sidebar: explorer
     {
         "key": "ctrl+shift+alt+x",
-        "command": "workbench.view.explorer",
+        "command": "workbench.view.explorer"
     },
     // Focus sidebar: debug
     {
         "key": "ctrl+shift+alt+v",
-        "command": "workbench.view.debug",
+        "command": "workbench.view.debug"
     },
     // Focus sidebar: activity bar
     {
         "key": "ctrl+shift+alt+c",
-        "command": "workbench.action.focusActivityBar",
+        "command": "workbench.action.focusActivityBar"
     },
     // Close terminal
     {
